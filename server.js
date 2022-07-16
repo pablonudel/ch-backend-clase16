@@ -43,11 +43,3 @@ const server = httpServer.listen(PORT, () => {
     console.log(`Servidor escuchando en puerto http://localhost:${PORT}`);
 })
 server.on('error', error => console.log(`Error en el servidor ${error}`))
-
-
-
-/*
-{id:1, name: 'Adobe Illustrador', price: 1000, thumbnail:'https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_adobe_illustrator-64.png'},
-{id:2, name: 'Adobe Photoshop', price: 2000, thumbnail:'https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_adobe_photoshop-64.png'},
-{id:3, name: 'Adobe Indesign', price: 800, thumbnail:'https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_indesign_adobe-64.png'}
-*/
