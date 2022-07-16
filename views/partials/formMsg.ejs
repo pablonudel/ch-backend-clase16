@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="card bg-secondary border-0 mb-5 shadow text-white">
+        <div class="card-body">
+            <form onsubmit="return addMessage(this)">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <input type="email" class="form-control" onkeyup="enableBtn()" id="email" placeholder="Email">
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <input type="text" class="form-control" onkeyup="enableBtn()" id="message" placeholder="Mensaje">
+                    </div>
+                    <div class="col-12 col-lg-2 d-grid gap-2">
+                        <button id="btnSendMsg" type="submit" class="btn btn-dark" disabled>Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
